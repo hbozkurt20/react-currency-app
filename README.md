@@ -40,19 +40,22 @@ Projeyi yerel ortamınıza kurmak için aşağıdaki adımları izleyin:
     npm install
     ```
 
-4.  **.env dosyasını oluşturun ve API anahtarınızı ekleyin:**
+4.  ** axios'u yükleyin
+    ```
+    npm install axios
+    ```
+
+5.  **.env dosyasını oluşturun ve API anahtarınızı ekleyin:**
 
     ```
     VITE_API_KEY=fca_live_MM5jPiX71FUi1fmFaxYbG0X0XoxzE7TEjpvzBv9K
     ```
 
-5.  **Uygulamayı başlatın:**
+6.  **Uygulamayı başlatın:**
 
     ```bash
     npm run dev
     ```
-
-6.  Tarayıcınızda `http://localhost:5173` adresine giderek uygulamayı görüntüleyebilirsiniz.
 
 ## API Kullanımı
 
