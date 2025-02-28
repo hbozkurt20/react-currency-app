@@ -1,0 +1,66 @@
+body {
+    position: relative;
+} 
+.select {
+    width: 60px;
+    max-width: 70px;
+}
+.currency-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    /* Yatayda %50 konumlandır */
+    left: 50%;
+    /* Dikeyde %50 konumlandır */
+    transform: translate(-50%, -50%);
+
+}
+.select-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px;
+}
+.arrow-icon {
+    margin: 0 8px;
+    font-size:25px;
+    color: rgb(0, 255, 255);
+}
+.head {
+    color: rgb(206, 180, 255);
+
+    background: rgba(8, 141, 119, 0.616);
+    padding: 5px;
+    border-radius: 15px;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.change {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(18, 31, 148);
+    padding: 8px 13px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    /* Yatayda %50 konumlandır */
+    left: 50%;
+    /* Dikeyde %50 konumlandır */
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+@media(max-width : 1083px) {
+    .currency-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
